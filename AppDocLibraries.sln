@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpireDocApplication", "Spir
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocXApplication", "DocXApplication\DocXApplication.csproj", "{9FB78395-6732-4D82-A9F4-E230ABA05D32}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HtmlAgilyPackApplication", "HtmlAgilyPackApplication\HtmlAgilyPackApplication.csproj", "{506CF4C9-5987-46F2-ACD2-18D627516FC1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{9FB78395-6732-4D82-A9F4-E230ABA05D32}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9FB78395-6732-4D82-A9F4-E230ABA05D32}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9FB78395-6732-4D82-A9F4-E230ABA05D32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{506CF4C9-5987-46F2-ACD2-18D627516FC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{506CF4C9-5987-46F2-ACD2-18D627516FC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{506CF4C9-5987-46F2-ACD2-18D627516FC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{506CF4C9-5987-46F2-ACD2-18D627516FC1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

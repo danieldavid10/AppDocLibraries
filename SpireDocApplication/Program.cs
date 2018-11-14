@@ -23,11 +23,11 @@ namespace SpireDocApplication
             Console.WriteLine("\t\t\t\t\t =================================");
             Console.WriteLine("Working with the Document...");
             #endregion
-            SpireDocClass spireDoc = new SpireDocClass(filePath, fileName);
+            //SpireDocClass spireDoc = new SpireDocClass(filePath, fileName);
 
-            spireDoc.ReplaceWithHTML("<p style='text-align: center; '><b>AUDI REPORT PROTOTIPE</b></p>", "{{ProjectName}}");
+            //spireDoc.ReplaceWithHTML("<p></p>", "{{ProjectName}}");
 
-            SpireDocClass spireDoc2 = new SpireDocClass(filePath, "DocGenerated.docx");
+            SpireDocClass spireDoc2 = new SpireDocClass(filePath, "TablesTemplate.docx");
             spireDoc2.ConvertToHtmlFile();
 
             Console.ReadKey();
