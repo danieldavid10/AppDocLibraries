@@ -134,7 +134,7 @@ namespace SpireDocApplication
         }
         public void ConvertToHtmlFile()
         {
-            document.SaveToFile(filePath + "DocHTML\\DocumentTables.html", FileFormat.Html);
+            document.SaveToFile(filePath + "DocHTML\\GoogleDocument.html", FileFormat.Html);
             Console.WriteLine("Saved as HTML File..!!!");
         }
     }

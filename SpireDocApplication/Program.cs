@@ -27,7 +27,7 @@ namespace SpireDocApplication
 
             //spireDoc.ReplaceWithHTML("<p></p>", "{{ProjectName}}");
 
-            SpireDocClass spireDoc2 = new SpireDocClass(filePath, "TablesTemplate.docx");
+            SpireDocClass spireDoc2 = new SpireDocClass(filePath, "GoogleDocument.docx");
             spireDoc2.ConvertToHtmlFile();
 
             Console.ReadKey();
